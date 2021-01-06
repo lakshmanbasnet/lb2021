@@ -1,0 +1,40 @@
+/* Parallax */
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+    height: 440px;
+    position: relative;
+    background-color: #000;
+    &>.jarallax-img {
+        position: absolute;
+        object-fit: cover;
+        font-family: 'object-fit: cover;';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .jarallax-img--darken {
+        opacity: 0.3;
+    }
+    .jarallax__content {
+        height: 100%;
+        flex-flow: column;
+        .subtitle:before {
+            background-color: $primary-white;
+        }
+        .subtitle, h2, p, small {
+            color: $primary-white;
+        }
+        .btn-outline-primary {
+            color: $primary-white;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        height: 50vh;
+        padding: 0 20px;
+        text-align: center;
+    }
+}

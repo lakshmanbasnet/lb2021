@@ -1,0 +1,53 @@
+/* Basic style */
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: $background-primary-color;
+}
+a {
+  color: $brand-primary-color;
+  text-decoration: none;
+    @include on-event {
+        color: $text-color;
+        text-decoration: underline;
+        transition: all .2s;
+    }
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    border-style: none;
+    width: 100%;
+}
+.bg-f {
+    position: relative;
+    &.bg-f--skewbottom {
+        &:after {
+            content: '';
+            padding: 40px 0;
+            transform: skew(0deg, -2deg);
+            bottom: -31px;
+            width: 100%;
+            position: absolute;
+            z-index: 1;
+        }
+    }
+}
+.bg-f--primary {
+    background-color: $background-primary-color;
+}
+.bg-f--secondary {
+    background-color: $background-secondary-color;
+    &.bg-f--skewbottom {
+        &:after {
+            background-color: $background-secondary-color;
+        }
+    }
+}

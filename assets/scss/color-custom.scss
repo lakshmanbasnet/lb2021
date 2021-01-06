@@ -1,0 +1,29 @@
+/* 
+Custom Colors CSS
+========================================================================== 
+*/
+
+$text-color: #606060;
+$title-color: #000000;
+$brand-primary-color: #2cb59a;
+$brand-secondary-color: #000000;
+$background-primary-color: #ffffff;
+$background-secondary-color: #f5f5f5;
+$shadow-color: #f2f5fa;
+$border-color: #e4e9ef;
+$primary-white: #ffffff;
+$navbar-color: #000000;
+$navbar-color-inverted: #ffffff;
+$btn-primary-bg-color: #000000;
+$btn-primary-bg-color-hover: #2cb59a;
+$btn-primary-txt-color:  #ffffff;
+$btn-primary-txt-color-hover: #ffffff;
+$btn-secondary-bg-color: #2cb59a;
+$btn-secondary-bg-color-hover: #2cb59a;
+$btn-secondary-txt-color: #000000;
+$btn-secondary-txt-color-hover: #ffffff;
+$footer-bg: #000000;
+$footer-text: #ffffff;
+
+@import
+  'option-colors';

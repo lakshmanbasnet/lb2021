@@ -1,0 +1,87 @@
+@charset 'UTF-8';
+
+
+/* Table of contents
+    ========================================================================== 
+    1. Base stuff
+        base/base
+        base/fonts
+        base/typography
+        base/icons
+        base/helpers
+        base/animations
+    3. Layout-related sections
+        layout/header
+        layout/footer
+    4. Components
+        components/button
+        components/forms
+        components/parallax
+    5. Page-specific styles
+        pages/single-post
+        pages/single-portfolio
+    6. Partials
+        partials/hero
+        partials/about
+        partials/portfolio
+        partials/pricing-tables
+        partials/testimonials
+        partials/blog-featured
+        partials/contact
+   */
+
+// 0. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+  
+// 0. Bootstrap
+@import
+  'vendors/bootstrap-required';
+
+/* 1. Base stuff
+========================================================================== 
+*/
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/icons',
+  'base/helpers',
+  'base/animations';
+
+/* 2. Layout-related sections 
+========================================================================== 
+*/
+@import
+  'layout/header',
+  'layout/footer';
+
+/* 3. Components
+========================================================================== 
+*/
+@import
+  'components/button',
+  'components/forms',
+  'components/preloader',
+  'components/parallax';
+
+/* 4. Page-specific styles
+========================================================================== 
+*/
+@import
+  'pages/single-post',
+  'pages/single-portfolio';
+
+/* 5. Partials
+========================================================================== 
+*/
+@import
+  'partials/hero',
+  'partials/about',
+  'partials/portfolio',
+  'partials/pricing-tables',
+  'partials/testimonials',
+  'partials/blog-featured',
+  'partials/contact';

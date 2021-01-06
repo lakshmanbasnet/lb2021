@@ -1,0 +1,72 @@
+/* Testimonials */
+
+.testimonials {
+    .testimonial {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        .testimonial__quote {
+            border: 2px solid $border-color;
+            padding: 40px 40px 80px 40px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 35px;
+            p {
+                display: flex;
+                justify-content: center;
+                &:after {
+                    content: '';
+                    background-color: $background-secondary-color;
+                    -webkit-mask-image: url('../img/testimonials/testimonials-quote.svg');
+                    mask-image: url('../img/testimonials/testimonials-quote.svg');
+                    width: 44px;
+                    height: 40px;
+                    position: absolute;
+                    bottom: 30px;
+                }
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                left: auto;
+                right: auto;
+                bottom: -15px;;
+                border-top: 15px solid;
+                border-left: 15px solid;
+                border-right: 15px solid;
+                border-color: $border-color transparent  transparent transparent;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                bottom: -13px;;
+                border-top: 15px solid;
+                border-left: 15px solid;
+                border-right: 15px solid;
+                border-color: $background-primary-color transparent  transparent transparent;
+            }
+        }
+        .testimonial__img {
+            margin-bottom: 10px;
+        }
+        .testimonial__name {
+            h5 {
+                font-size: 16px;
+                font-weight: $font-semibold;
+                margin-bottom: 5px;
+            }
+        }
+        .testimonial__quote {
+            @include media-breakpoint-down(md) {
+                padding: 30px 20px 70px 20px;
+            }
+        }
+    }
+}

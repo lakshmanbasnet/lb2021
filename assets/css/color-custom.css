@@ -1,0 +1,172 @@
+/* 
+Custom Colors CSS
+========================================================================== 
+*/
+/* 
+Easily change colors with just this CSS
+========================================================================== 
+*/
+/* Brand Primary Color */
+.input-border, .single-post .post__category.subtitle:before, .single-portfolio .next-project:after, .about .experiences .experience .experience__time, .about .experiences .experience .experience__time:before, .about .bar .progress .progress-bar, .blog-featured a:hover .featured__item .featured__title:after, .contact .contact__image .contact__wrapper ul.contact-methods li a:before, h1.title-line:before, h2.title-line:before, h3.title-line:before, h4.title-line:before, blockquote {
+  background-color: #2cb59a;
+}
+
+a, .footer ul li a:after, .single-post .post__entry ul li:before, .about .services i, .pricing-tables .pricing-table ul li:before, .contact .contact__image .contact__wrapper ul.contact-methods li i {
+  color: #2cb59a;
+}
+
+.about .bar.bar--circle .border-primary, .portfolio .portfolio__filters a.current, ul.list-inline-check li:before, .checkmark:after, .about .bar.bar--circle .border-primary {
+  border-color: #2cb59a !important;
+}
+
+/* Preloader */
+.preloader .preloader__spinner .spinner__ring:after {
+  border-color: #000000 transparent #2cb59a transparent;
+}
+
+/* Brand Secondary Color */
+.subtitle:before, .navbar .navbar-toggler-icon .burger__line, .single-post .single-post__footer .post__comment-count a:after, .single-portfolio .next-project:before, .contact .contact__image .contact__wrapper ul.contact-methods li a:after {
+  background-color: #000000;
+}
+
+.form-control, .form-control:focus {
+  border-color: #000000;
+}
+
+.portfolio .portfolio__item .item__content .item__title i {
+  color: #000000;
+}
+
+/* Text Color */
+body, a:hover, a:active, a:focus {
+  color: #606060;
+}
+
+/* Title Color */
+h1, h2, h3, h4, h5, h6, small, .subtitle, .preloader .preloader__sitetitle, .preloader .preloader__text, .single-post .post__entry p.lead, .single-post .post__entry strong, .single-post .single-post__footer .post__comment-count, .single-post .single-post__footer .post__comment-count a, .single-post .post__author .author__text .social-channels li a i, .social-share span, .social-share ul li a, .social-share ul li a i, .single-portfolio p.lead, .single-portfolio .next-project, .about .social-channels ul li a i, .about .experiences .experience .experience__organization, .about .bar .bar-progress, .portfolio .portfolio__filters a, .portfolio .portfolio__filters a, .portfolio .portfolio__filters a.current, .pricing-tables .pricing-table .price, .contact .contact__image .contact__wrapper ul.contact-methods li, .contact .contact__image .contact__wrapper ul.contact-methods li a, .about .bar .bar-label, .about .experiences .experience .experience__info .experience__jobtitle, .form-control, .form-control:focus {
+  color: #000000;
+}
+
+/* Background Primary Color */
+body, .bg-f--primary, .preloader, .navbar.sticky, .form-control, .form-control:focus, .contact .contact__image .contact__wrapper {
+  background-color: #ffffff;
+}
+
+.testimonials .testimonial .testimonial__quote:after {
+  border-color: #ffffff transparent transparent transparent;
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    background-color: #ffffff;
+  }
+}
+
+.navbar.navbar--color {
+  background-color: #ffffff;
+}
+
+/* Background Secondary Color */
+.bg-f--secondary, .bg-f--secondary.bg-f--skewbottom:after {
+  background-color: #f5f5f5;
+}
+
+/* Shadow Color */
+.btn.btn--shadow, .btn.btn--shadow:not(:disabled):not(.disabled):active, .btn.btn--shadow:not(:disabled):not(.disabled).active, .btn.btn--shadow.show > .btn-primary.dropdown-toggle, .btn.btn--shadow:focus {
+  -webkit-box-shadow: 16px 16px 0px #f2f5fa !important;
+  box-shadow: 16px 16px 0px #f2f5fa !important;
+}
+
+.about .experiences .experience:last-of-type .experience__time, .about .bar .progress, .testimonials .testimonial .testimonial__quote p:after {
+  background-color: #f2f5fa;
+}
+
+.about .bar.bar--circle .progress::after {
+  border-color: #f2f5fa;
+}
+
+/* Border Color */
+.table th, .table td, .table thead th, .table tbody + tbody, .table-bordered, .table-bordered th, .table-bordered td, .table .thead-light th, .modal-header, .modal-footer, .border, .border-top, .border-right, .border-bottom, .border-left, .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody, .table .thead-dark th, .single-post .post__author, .single-post .post__comments .post__comment, .pricing-tables .pricing-table, .testimonials .testimonial .testimonial__quote {
+  border-color: #e4e9ef;
+}
+
+.testimonials .testimonial .testimonial__quote:before {
+  border-color: #e4e9ef transparent transparent transparent;
+}
+
+h5.title-line:before, h6.title-line:before {
+  background-color: #e4e9ef;
+}
+
+/* Navigation items */
+.navbar.navbar--color ul li a, .navbar.sticky ul li a {
+  color: #000000;
+}
+
+.navbar.sticky .navbar__slideline, .navbar.navbar--color .navbar__slideline {
+  background-color: #000000;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+}
+
+.navbar .navbar__slideline {
+  background-color: #ffffff;
+}
+
+/* Button primary colors */
+.btn-primary, .btn-primary:focus, a.btn-primary:not([href]) {
+  color: #ffffff;
+  background-color: #2cb59a;
+  border-color: #2cb59a;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary.show > .btn-primary.dropdown-toggle, .btn-primary:focus:hover, .btn-primary:focus:not(:disabled):not(.disabled):active, .btn-primary:focus:not(:disabled):not(.disabled).active, .btn-primary:focus.show > .btn-primary.dropdown-toggle, a.btn-primary:not([href]):hover {
+  color: #ffffff;
+  background-color: #2cb59a;
+  border-color: #2cb59a;
+}
+
+.portfolio .portfolio__item .item__content .item__category span, .portfolio .portfolio__item .item__content .item__category:before, .portfolio .portfolio__item .item__content .item__category span:before {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+/* Button secondary colors */
+.btn-outline-primary, .btn-outline-primary:focus, .btn-outline-primary:not([href]) {
+  border-color: #2cb59a;
+  color: #000000;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary.show > .btn-primary.dropdown-toggle, .btn-outline-primary:focus:hover, .btn-outline-primary:focus:not(:disabled):not(.disabled):active, .btn-outline-primary:focus:not(:disabled):not(.disabled).active, .btn-outline-primary:focus.show > .btn-primary.dropdown-toggle, a.btn-outline-primary:not([href]):hover {
+  background-color: #2cb59a;
+  border-color: #2cb59a;
+}
+
+.portfolio .portfolio__item .item__content .item__title span, .portfolio .portfolio__item .item__content .item__title:before, .portfolio .portfolio__item .item__content .item__title span:before {
+  background-color: #2cb59a;
+  color: #000000;
+}
+
+/* Primary white */
+blockquote, .btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary.show > .btn-primary.dropdown-toggle, .btn-outline-primary:focus:hover, .btn-outline-primary:focus:not(:disabled):not(.disabled):active, .btn-outline-primary:focus:not(:disabled):not(.disabled).active, .btn-outline-primary:focus.show > .btn-primary.dropdown-toggle, .btn-outline-light, .btn-outline-light:focus, .jarallax .jarallax__content .subtitle, .jarallax .jarallax__content h2, .jarallax .jarallax__content p, .jarallax .jarallax__content small, .jarallax .jarallax__content .btn-outline-primary, .hero .hero__wrapper .hero__text .subtitle, .hero .hero__wrapper .hero__text h1, .hero .hero__wrapper .hero__text p, .hero .hero__wrapper .hero__text .ui-scroll, .hero .hero__wrapper .hero__text small, .hero .hero__wrapper .ui-scroll small, .blog-featured .featured__item .featured__content .featured__category, .blog-featured .featured__item .featured__content .featured__title {
+  color: #ffffff;
+}
+
+.btn-light, .btn-light:focus, .jarallax .jarallax__content .subtitle:before, .hero .hero__wrapper .hero__text .subtitle:before, .hero .hero__wrapper .ui-scroll small:after, .blog-featured .featured__item .featured__content .featured__title:after {
+  background-color: #ffffff;
+}
+
+.btn-light, .btn-light:focus, .btn-outline-light, .btn-outline-light:focus, .hero .hero__wrapper .ui-scroll .scroll-icon {
+  border-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000;
+}
+
+.footer, .footer ul li a::before {
+  color: #ffffff;
+}

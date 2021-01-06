@@ -1,0 +1,80 @@
+/* Pricing Tables */
+
+.pricing-tables {
+    .pricing-table {
+        justify-content: center;
+        display: flex;
+        flex-flow: wrap;
+        border: 2px solid $border-color;
+        padding: 48px 24px;
+        .subtitle {
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 0;
+            &:before {
+                content: none;
+            }
+        }
+        .price {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            width: 100%;
+            color: $title-color;
+            font-weight: $font-semibold;
+            letter-spacing: -2px;
+            span {
+                font-size: 36px;
+                margin-right: 10px;
+            }
+        }
+        h4 {
+            font-size: 18px;
+            margin-bottom: 75px;
+            &.title-line:before  {
+                right: 0;
+                bottom: -25px;
+                margin: 0 auto;
+            }
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            li {
+                margin: 0 15px 15px 40px;
+                position: relative;
+                &:before {
+                    content: '\E94C';
+                    font-family: 'LineIcons';
+                    font-size: 24px;
+                    color: $brand-primary-color;
+                    margin-right: 10px;
+                    margin-left: -40px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+        .btn {
+            z-index: 1;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+        @include media-breakpoint-down(md) {
+            margin-bottom: 20px;
+            .price {
+                font-size: 40px;
+            }
+            ul {
+                font-size: 16px;
+                li {
+                    margin: 0 0 15px 40px;
+                }
+            }
+        }
+    }
+}
